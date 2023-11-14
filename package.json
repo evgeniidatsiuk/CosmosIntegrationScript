@@ -1,0 +1,34 @@
+{
+  "name": "cosmosintegrationscript",
+  "version": "1.0.0",
+  "description": "PoC of SDK",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgeniidatsiuk/CosmosIntegrationScript.git"
+  },
+  "keywords": [
+    "cosmos",
+    "atom",
+    "sdk",
+    "node.js",
+    "js"
+  ],
+  "author": "Yevgenii Datsiuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgeniidatsiuk/CosmosIntegrationScript/issues"
+  },
+  "homepage": "https://github.com/evgeniidatsiuk/CosmosIntegrationScript#readme",
+  "dependencies": {
+    "@cosmjs/amino": "^0.31.3",
+    "@cosmjs/stargate": "^0.31.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10"
+  }
+}
